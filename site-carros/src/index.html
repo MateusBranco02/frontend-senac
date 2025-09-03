@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Carros & Cia</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon"
+    href="https://file.kelleybluebookimages.com/kbb/base/evox/CP/15298/2022-Ford-Mustang-front_15298_032_2400x1800_YZ_nologo.png"
+    type="image/x-icon">
 </head>
 
 <body>
@@ -40,7 +43,7 @@
 
           <div class="alinhar-elementos">
             <p class="valor-veiculo">R$ 120.000,00</p>
-            <button class="button-detalhes">Ver Detalhes</button>
+            <button id="detalhes-carro-1" class="button-detalhes" onclick="Carro_1()">Ver Detalhes</button>
           </div>
         </div>
       </div>
@@ -60,7 +63,7 @@
 
           <div class="alinhar-elementos">
             <p class="valor-veiculo">R$ 240.000,00</p>
-            <button class="button-detalhes">Ver Detalhes</button>
+            <button id="detalhes-carro-2" class="button-detalhes" onclick="Carro_2()">Ver Detalhes</button>
           </div>
         </div>
       </div>
@@ -81,7 +84,7 @@
 
           <div class="alinhar-elementos">
             <p class="valor-veiculo">R$ 80.000,00</p>
-            <button class="button-detalhes">Ver Detalhes</button>
+            <button id="detalhes-carro-3" class="button-detalhes" onclick="Carro_3()">Ver Detalhes</button>
           </div>
         </div>
       </div>
@@ -91,6 +94,8 @@
   <footer class="footer-container">
     &copy; 2025 Carros & Cia Todos os direitos reservados
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>

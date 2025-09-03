@@ -117,6 +117,12 @@
   border-radius: 4px;
   padding: 5px;
   color: #fff;
+  cursor: pointer;
+}
+
+.button-detalhes:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
 }
 
 .footer-container {
